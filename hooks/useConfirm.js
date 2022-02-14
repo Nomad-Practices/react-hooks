@@ -1,10 +1,12 @@
-const useConfirm = (message = "", callback) => {
+const useConfirm = (message = "", callback, rejection) => {
   if (typeof callback !== "function") {
     return;
   }
   const confirmAction = () => {
     if (confirm(message)) {
       callback();
+    } else {
+      rejection();
     }
   };
   return confirmAction;
@@ -14,7 +16,10 @@ const useConfirm = (message = "", callback) => {
 //   const deleteWord = () => {
 //     console.log("Delete word");
 //   };
-//   const cofirmDelete = useConfirm("Are you sure?", deleteWord);
+//   const abort = () => {
+//     console.log("aborted");
+//   };
+//   const cofirmDelete = useConfirm("Are you sure?", deleteWord, abort);
 //   return (
 //     <div className="App">
 //       <button>delete word</button>
