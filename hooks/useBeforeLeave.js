@@ -27,3 +27,4 @@ const useBeforeLeave = (cb) => {
 //     </div>
 //   );
 // }
+// 마우스가 화면 가장자리에 가까워질 때 event handler를 등록할 수 있다.

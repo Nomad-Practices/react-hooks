@@ -18,3 +18,4 @@ const usePreventLeave = () => {
 //     </div>
 //   );
 // }
+// built-in hook 없는 custom hook : 페이지를 닫기 전에 confirm을 확인한다.

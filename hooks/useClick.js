@@ -6,7 +6,7 @@ const useClick = (onClick) => {
     if (element.current) {
       element.current.addEventListener("click", onClick);
     }
-  });
+  }, []);
   return element;
 };
 
@@ -23,3 +23,4 @@ export default useClick;
 //     </div>
 //   );
 // }
+// 현재 element에 click event가 발생했을 때 handler를 등록할 수 있다.

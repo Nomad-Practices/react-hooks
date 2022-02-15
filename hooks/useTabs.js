@@ -24,3 +24,4 @@ export default useTabs;
 //     </div>
 //   );
 // }
+// 현재 탭 index가 달라질 때마다 보여줄 contents가 달라진다.

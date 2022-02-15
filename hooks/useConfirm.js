@@ -29,3 +29,5 @@ const useConfirm = (message = "", onConfirm, onReject) => {
 //     </div>
 //   );
 // }
+// built-in hook을 사용하지 않은 custom hook
+// 확인창을 만들 때 유용해보인다.
