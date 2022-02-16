@@ -15,6 +15,7 @@ const useBeforeLeave = (cb) => {
     };
   }, []);
 };
+export default useBeforeLeave;
 // Use cases~
 // export default function App() {
 //   const cb = () => {

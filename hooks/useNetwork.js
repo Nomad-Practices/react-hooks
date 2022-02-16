@@ -14,6 +14,7 @@ const useNetwork = (handler) => {
     };
   }, []);
 };
+export default useNetwork;
 // Use case~
 // export default function App() {
 //   const handleNetworkChange = (online) => {

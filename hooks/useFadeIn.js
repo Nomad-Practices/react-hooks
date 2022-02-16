@@ -15,6 +15,7 @@ const useFadeIn = (duration = 1, delay = 0) => {
     style: { opacity: 0 },
   };
 };
+export default useFadeIn;
 // Use Case~
 // export default function App() {
 //   const fadeInH1 = useFadeIn(1, 2);

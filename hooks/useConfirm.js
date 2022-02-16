@@ -14,6 +14,7 @@ const useConfirm = (message = "", onConfirm, onReject) => {
   };
   return confirmAction;
 };
+return useConfirm;
 // Use case~
 // export default function App() {
 //   const deleteWord = () => {

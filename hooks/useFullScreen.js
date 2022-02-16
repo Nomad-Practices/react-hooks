@@ -18,6 +18,7 @@ const useFullScreen = (onFullCb) => {
   };
   return { element, triggerFull, exitFull };
 };
+export default useFullScreen;
 // Use case~
 // export default function App() {
 //   const onFullCb = (isFull) => {

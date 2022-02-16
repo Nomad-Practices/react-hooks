@@ -9,6 +9,7 @@ const usePreventLeave = () => {
 
   return { enablePrevent };
 };
+export default usePreventLeave;
 // use case~
 // export default function App() {
 //   const { enablePrevent } = usePreventLeave();

@@ -12,6 +12,7 @@ const useScroll = () => {
   }, []);
   return y;
 };
+export default useScroll;
 // use Case~
 // export default function App() {
 //   const y = useScroll();
